@@ -4,8 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calorie Counter</title>
+    <link rel="stylesheet" href="foodItem.css">    
+    <script src="foodItem.js"></script>
+        
 </head>
 <body>
-    
+    <h1>Enter data for what you ate</h1>
+    <label for="name">Name of food:</label>
+        <input type="text" id="name"><br>
+
+        <label for="calories">Calories:</label>
+        <input type="text" id="calories"><br>
+
+        <label for="quantity">How many did you eat:</label>
+        <input type="text" id="quantity"><br>
+
+        <button id="calculate">Click to Add to Your Total</button><br>
+
+        <button id="clear">Clear</button><br><br><br>
+        <br />  <br /> <br />
+        <h2>Food -- Calories -- Quantity</h2>
+        <ul id="myUL"></ul>
+        =======================================
+
+        <p id="finalMsg"></p>
+       
 </body>
 </html>
